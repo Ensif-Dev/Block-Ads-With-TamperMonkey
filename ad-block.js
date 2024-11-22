@@ -5,7 +5,7 @@
 // @description  Removes common ad elements from web pages.
 // @author
 // @license      CC BY 4.0; https://creativecommons.org/licenses/by/4.0/
-// @homepageURL  https://dumbify.com/blog/Blocking-Ads-With-Tampermonkey
+// @homepageURL  https://dumbify.com/blog/ad-blockers-are-going-away-surviving-manifest-v3
 // @supportURL   https://github.com/Ensif-Dev/Block-Ads-With-Tampermonkey/issues
 // @updateURL    https://raw.githubusercontent.com/Ensif-Dev/Block-Ads-With-Tampermonkey/main/ad-block.js
 // @downloadURL  https://raw.githubusercontent.com/Ensif-Dev/Block-Ads-With-Tampermonkey/main/ad-block.js
