@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Dumbify’s Ad Blocker Script
 // @namespace    https://github.com/Ensif-Dev/
-// @version      1.0.0
+// @version      1.0.1
 // @description  Removes common ad elements from web pages.
 // @author
 // @license      CC BY 4.0; https://creativecommons.org/licenses/by/4.0/
@@ -15,7 +15,7 @@
 (function () {
   "use strict";
 
-  const adSelectors = [".advertisement", ".ad-container", ".sponsored-content", '[class*="ad-"]', '[id*="ad-"]', '[class*="advertisement"]', ".google-ad", ".dfp-ad"];
+  const adSelectors = [".advertisement", ".ad-container", ".sponsored-content", '[class*="advertisement"]', ".google-ad", ".dfp-ad", "#st-ad", ".bordeaux-slot", 'iframe[name*="seedtag_creative"]'];
 
   function removeAds() {
     adSelectors.forEach((selector) => {
@@ -28,6 +28,6 @@
   // Initial removal
   removeAds();
 
-  // Check every 10 seconds for new ads
-  setInterval(removeAds, 10000);
+  // Check every 5 seconds for new ads
+  setInterval(removeAds, 5000);
 })();
